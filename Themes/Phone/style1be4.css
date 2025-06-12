@@ -1,0 +1,267 @@
+body
+{
+	color: black;
+	background-color: white;
+}
+body, td, .normaltext
+{
+	font-family: Verdana, arial, helvetica, serif;
+	font-size: medium;
+}
+*, a:link, a:visited, a:hover, a:active
+{
+	color: black !important;
+}
+table
+{
+	empty-cells: show;
+}
+.code
+{
+	font-size: medium;
+	font-family: monospace;
+	border: 1px solid black;
+	margin: 1px;
+	padding: 1px;
+}
+.quote
+{
+	font-size: medium;
+	border: 1px solid black;
+	margin: 1em;
+	padding: 1em;
+}
+.smalltext, .quoteheader, .codeheader
+{
+	font-size: small;
+}
+.largetext
+{
+	font-size: large;
+}
+hr
+{
+	height: 1px;
+	border: 0;
+	color: black;
+	background-color: black;
+}
+img
+{
+border:none;
+max-width: 100%;
+}
+
+
+/* Sometimes there will be an error when you post */
+.error
+{
+	color: red;
+}
+
+
+/* definitions for the main tab, active means the tab reflects which page is displayed */
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, .maintab_active_last
+{
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.maintab_back, .maintab_active_back
+{
+	color: white;
+	text-decoration: none;
+	font-size:  medium;
+	vertical-align: top;
+	padding: 2px 6px 6px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.maintab_first
+{
+	width: 10px;
+}
+.maintab_back
+{
+}
+.maintab_last
+{
+	width: 8px;
+}
+.maintab_active_first
+{
+	width: 6px;
+}
+.maintab_active_back
+{
+}
+.maintab_active_last
+{
+	width: 8px;
+}
+
+/* how links behave in main tab. */
+.maintab_back a:link , .maintab_back a:visited, .maintab_active_back a:link , .maintab_active_back a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+.maintab_back a:hover, .maintab_active_back a:hover
+{
+	color: #e0e0ff;
+	text-decoration: none;
+}
+/* definitions for the mirror tab */
+.mirrortab_first, .mirrortab_back, .mirrortab_last, .mirrortab_active_first, .mirrortab_active_back, .mirrortab_active_last
+{
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.mirrortab_back, .mirrortab_active_back
+{
+	color: white;
+	text-decoration: none;
+	font-size: small;
+	vertical-align: bottom;
+	padding: 6px 6px 2px 6px;
+	font-family: tahoma, sans-serif;
+}
+
+.mirrortab_first
+{
+	width: 10px;
+}
+.mirrortab_back
+{
+}
+.mirrortab_last
+{
+	width: 6px;
+}
+.mirrortab_active_first
+{
+	width: 6px;
+}
+.mirrortab_active_back
+{
+}
+.mirrortab_active_last
+{
+	width: 8px;
+}
+
+/* how links behave in mirror tab. */
+.mirrortab_back a:link , .mirrortab_back a:visited, .mirrortab_active_back a:link , .mirrortab_active_back a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+.mirrortab_back a:hover, .mirrortab_active_back a:hover
+{
+	color: #e0e0ff;
+	text-decoration: none;
+}
+
+/* The AJAX notifier */
+#ajax_in_progress
+{
+	background: #32CD32;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt;
+	padding: 3px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.titlebg {
+	background-color: silver;
+}
+
+.titlebg2 {
+}
+
+.catbg {
+	background-color: cornsilk;
+}
+
+.post {
+	line-height:1.66em;
+}
+
+textarea.editor {
+	font-size:1.5em;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+/*
+   Scrippets-compatible CSS - http://www.fountain.io
+*/
+
+div.scrippet {
+    min-width: 640px !important;
+    max-width: 920px !important;
+	background: #ffffff;
+	color: #000000;
+	/* border: 1px solid #333; */
+	padding: 5px 14px 15px 14px;
+	margin-bottom: 16px;
+	margin-left: 20px;
+}
+
+.scrippet p {
+	/*font-family: Courier, "Courier New", monospace;*/
+	font: 24px/28px Courier, "Courier New", monospace;
+	text-align: left;
+	letter-spacing: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sceneheader,
+.action,
+.character,
+.shot {
+	padding-top: 1.5ex;
+}
+
+.action {
+	padding-right: 5%;
+}
+
+.character {
+	padding-left: 40%;
+}
+
+.dialogue {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.parenthetical {
+	padding-left: 32%;
+	padding-right: 30%;
+}
+
+.dialogue + .parenthetical {
+	padding-bottom: 0;
+}
+
+.transition {
+	padding-top: 3ex;
+	padding-left: 65%;
+	padding-bottom: 1.5ex;
+}
+
+.shot {
+	padding-right: 5%;
+}
